@@ -15,17 +15,15 @@ class Quiz {
     });
   }
 
-  async start(){
-    if(gameState === 0){
+ start(){
+    
       contestant = new Contestant();
-      var contestantCountRef = await database.ref('contestantCount').once("value");
-      if(contestantCountRef.exists()){
-        contestantCount = contestantCountRef.val();
+      
         contestant.getCount();
-      }
+      
       question = new Question()
       question.display();
-    }
+    
   }
 
   play(){
@@ -55,6 +53,6 @@ class Quiz {
         textSize(20);
         text(allContestants[plr].name + ": " + allContestants[plr].answer, 250,display_Answers)
       }
-    }
+    } 
   }
 }
