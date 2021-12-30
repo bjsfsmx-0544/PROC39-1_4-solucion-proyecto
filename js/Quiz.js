@@ -31,15 +31,15 @@ class Quiz {
     background("Yellow");
     fill(0);
     textSize(30);
-    text("Result of the Quiz",340, 50);
-    text("----------------------------",320, 65);
+    text("Resultados del quiz",340, 50);
+    text("----------------------------",330, 65);
     Contestant.getPlayerInfo();
     if(allContestants !== undefined){
       debugger;
       var display_Answers = 230;
       fill("Blue");
       textSize(20);
-      text("*NOTE: Contestant who answered correct are highlighted in green color!",130,230);
+      text("*NOTA: ¡Los participantes que respondieron correctamente están resaltados en color verde!",20,230);
 
       for(var plr in allContestants){
         debugger;
