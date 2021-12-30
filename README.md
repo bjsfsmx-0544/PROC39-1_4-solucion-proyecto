@@ -1,4 +1,4 @@
-# # PROC39-1_4-solucion-proyecto
+# PROC39-1_4-solucion-proyecto
 ## Referencia de la maestra - Solución del proyecto para la clase 39 nivel PRO 1-4. 
 Juego MiQuiz etapa 3.
 
